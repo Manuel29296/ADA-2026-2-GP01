@@ -1,0 +1,125 @@
+n,fase,rol,estrategia,formato,estilo,cierre,temperatura,precision,segundos,top_fallos,nota
+1,0-base,-,-,-,-,-,0.0,0.16,0.0,last_word:last_word_sent x6; change_case:capital_word_frequency x5; copy:copy x5,sin instrucciones
+2,1-cribado,0,-,-,-,-,0.0,0.15,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,rol=0
+3,1-cribado,1,-,-,-,-,0.0,0.16,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:capital_word_frequency x5,rol=1
+4,1-cribado,2,-,-,-,-,0.0,0.18,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol=2
+5,1-cribado,3,-,-,-,-,0.0,0.18,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,rol=3
+6,1-cribado,4,-,-,-,-,0.0,0.11,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,rol=4
+7,1-cribado,5,-,-,-,-,0.0,0.14,0.0,last_word:last_word_sent x8; keywords:keyword_specific_position x5; copy:copy x5,rol=5
+8,1-cribado,6,-,-,-,-,0.0,0.15,0.0,last_word:last_word_sent x8; copy:copy x5; new:copy_span_idx x5,rol=6
+9,1-cribado,7,-,-,-,-,0.0,0.13,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,rol=7
+10,1-cribado,-,0,-,-,-,0.0,0.12,0.0,last_word:last_word_sent x7; copy:copy x6; keywords:keyword_specific_position x5,estrategia=0
+11,1-cribado,-,1,-,-,-,0.0,0.11,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,estrategia=1
+12,1-cribado,-,2,-,-,-,0.0,0.16,0.0,last_word:last_word_sent x7; copy:copy x5; new:copy_span_idx x5,estrategia=2
+13,1-cribado,-,3,-,-,-,0.0,0.15,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:capital_word_frequency x5,estrategia=3
+14,1-cribado,-,4,-,-,-,0.0,0.11,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:capital_word_frequency x5,estrategia=4
+15,1-cribado,-,5,-,-,-,0.0,0.1,0.0,last_word:last_word_sent x6; copy:copy x6; copy:repeat_phrase x5,estrategia=5
+16,1-cribado,-,6,-,-,-,0.0,0.19,0.0,last_word:last_word_sent x7; keywords:keyword_specific_position x5; change_case:capital_word_frequency x5,estrategia=6
+17,1-cribado,-,7,-,-,-,0.0,0.15,0.0,last_word:last_word_sent x7; copy:copy x5; new:copy_span_idx x5,estrategia=7
+18,1-cribado,-,-,0,-,-,0.0,0.18,0.0,copy:copy x5; new:copy_span_idx x5; last_word:last_word_sent x4,formato=0
+19,1-cribado,-,-,1,-,-,0.0,0.08,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,formato=1
+20,1-cribado,-,-,2,-,-,0.0,0.11,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,formato=2
+21,1-cribado,-,-,3,-,-,0.0,0.11,0.0,last_word:last_word_sent x7; change_case:capital_word_frequency x5; copy:copy x5,formato=3
+22,1-cribado,-,-,4,-,-,0.0,0.09,0.0,last_word:last_word_sent x7; copy:copy x5; new:copy_span_idx x5,formato=4
+23,1-cribado,-,-,5,-,-,0.0,0.06,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,formato=5
+24,1-cribado,-,-,6,-,-,0.0,0.12,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,formato=6
+25,1-cribado,-,-,7,-,-,0.0,0.07,0.0,last_word:last_word_sent x8; copy:copy x5; new:copy_span_idx x5,formato=7
+26,1-cribado,-,-,-,0,-,0.0,0.19,0.0,last_word:last_word_sent x6; keywords:keyword_specific_position x5; new:copy_span_idx x5,estilo=0
+27,1-cribado,-,-,-,1,-,0.0,0.15,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:capital_word_frequency x5,estilo=1
+28,1-cribado,-,-,-,2,-,0.0,0.17,0.0,last_word:last_word_sent x7; change_case:capital_word_frequency x5; new:copy_span_idx x5,estilo=2
+29,1-cribado,-,-,-,3,-,0.0,0.16,0.0,last_word:last_word_sent x7; copy:copy x5; new:copy_span_idx x5,estilo=3
+30,1-cribado,-,-,-,4,-,0.0,0.12,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x6,estilo=4
+31,1-cribado,-,-,-,5,-,0.0,0.15,0.0,last_word:last_word_sent x7; keywords:keyword_specific_position x5; copy:copy x5,estilo=5
+32,1-cribado,-,-,-,6,-,0.0,0.16,0.0,last_word:last_word_sent x7; copy:copy x5; new:copy_span_idx x5,estilo=6
+33,1-cribado,-,-,-,7,-,0.0,0.18,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,estilo=7
+34,1-cribado,-,-,-,-,0,0.0,0.12,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,cierre=0
+35,1-cribado,-,-,-,-,1,0.0,0.11,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,cierre=1
+36,1-cribado,-,-,-,-,2,0.0,0.1,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:capital_word_frequency x5,cierre=2
+37,1-cribado,-,-,-,-,3,0.0,0.18,0.0,last_word:last_word_sent x8; change_case:capital_word_frequency x5; new:copy_span_idx x5,cierre=3
+38,1-cribado,-,-,-,-,4,0.0,0.1,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,cierre=4
+39,1-cribado,-,-,-,-,5,0.0,0.11,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:capital_word_frequency x5,cierre=5
+40,1-cribado,-,-,-,-,6,0.0,0.11,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:capital_word_frequency x5,cierre=6
+41,1-cribado,-,-,-,-,7,0.0,0.07,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,cierre=7
+42,2-inicio,2,6,0,0,3,0.0,0.13,0.0,last_word:last_word_sent x8; copy:copy x6; keywords:keyword_specific_position x5,mejor de cada ranura
+43,2-pasada1,3,6,0,0,3,0.0,0.15,0.0,last_word:last_word_sent x7; copy:copy x6; keywords:keyword_specific_position x5,rol: 2->3
+44,2-pasada1,0,6,0,0,3,0.0,0.1,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 2->0
+45,2-pasada1,3,2,0,0,3,0.0,0.16,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:english_capital x5,estrategia: 6->2
+46,2-pasada1,3,3,0,0,3,0.0,0.15,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,estrategia: 6->3
+47,2-pasada1,3,2,0,7,3,0.0,0.16,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,estilo: 0->7
+48,2-pasada1,3,2,0,2,3,0.0,0.17,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x5,estilo: 0->2
+49,2-pasada2,2,2,0,2,3,0.0,0.1,0.0,last_word:last_word_sent x8; copy:copy x5; new:copy_span_idx x5,rol: 3->2
+50,2-pasada2,0,2,0,2,3,0.0,0.14,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 3->0
+51,2-pasada2,3,6,0,2,3,0.0,0.17,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,estrategia: 2->6
+52,2-pasada2,3,3,0,2,3,0.0,0.14,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,estrategia: 2->3
+53,2-pasada2,3,2,0,0,3,0.0,0.16,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:english_capital x5,estilo: 2->0
+54,2-pasada2,3,2,0,7,3,0.0,0.16,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,estilo: 2->7
+55,3-pasada1,0,2,0,2,3,0.0,0.14,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 3->0
+56,3-pasada1,1,2,0,2,3,0.0,0.16,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,rol: 3->1
+57,3-pasada1,2,2,0,2,3,0.0,0.1,0.0,last_word:last_word_sent x8; copy:copy x5; new:copy_span_idx x5,rol: 3->2
+58,3-pasada1,4,2,0,2,3,0.0,0.13,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 3->4
+59,3-pasada1,5,2,0,2,3,0.0,0.15,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,rol: 3->5
+60,3-pasada1,6,2,0,2,3,0.0,0.15,0.0,last_word:last_word_sent x8; copy:copy x5; new:copy_span_idx x5,rol: 3->6
+61,3-pasada1,7,2,0,2,3,0.0,0.15,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 3->7
+62,3-pasada1,3,0,0,2,3,0.0,0.15,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,estrategia: 2->0
+63,3-pasada1,3,1,0,2,3,0.0,0.15,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:english_capital x5,estrategia: 2->1
+64,3-pasada1,3,3,0,2,3,0.0,0.14,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,estrategia: 2->3
+65,3-pasada1,3,4,0,2,3,0.0,0.11,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,estrategia: 2->4
+66,3-pasada1,3,5,0,2,3,0.0,0.12,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,estrategia: 2->5
+67,3-pasada1,3,6,0,2,3,0.0,0.17,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,estrategia: 2->6
+68,3-pasada1,3,7,0,2,3,0.0,0.15,0.0,last_word:last_word_sent x8; copy:copy x6; new:copy_span_idx x5,estrategia: 2->7
+69,3-pasada1,3,2,1,2,3,0.0,0.12,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x5,formato: 0->1
+70,3-pasada1,3,2,2,2,3,0.0,0.13,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x5,formato: 0->2
+71,3-pasada1,3,2,3,2,3,0.0,0.12,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x6,formato: 0->3
+72,3-pasada1,3,2,4,2,3,0.0,0.12,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,formato: 0->4
+73,3-pasada1,3,2,5,2,3,0.0,0.11,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x5,formato: 0->5
+74,3-pasada1,3,2,6,2,3,0.0,0.11,0.0,last_word:last_word_sent x6; copy:copy x6; first_word:first_word_sent x5,formato: 0->6
+75,3-pasada1,3,2,7,2,3,0.0,0.07,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:english_capital x6,formato: 0->7
+76,3-pasada1,3,2,0,0,3,0.0,0.16,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:english_capital x5,estilo: 2->0
+77,3-pasada1,3,2,0,1,3,0.0,0.11,0.0,copy:copy x6; last_word:last_word_sent x5; first_word:first_word_answer x5,estilo: 2->1
+78,3-pasada1,3,2,0,3,3,0.0,0.18,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,estilo: 2->3
+79,3-pasada1,3,2,0,4,3,0.0,0.13,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x6,estilo: 2->4
+80,3-pasada1,3,2,0,5,3,0.0,0.13,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,estilo: 2->5
+81,3-pasada1,3,2,0,6,3,0.0,0.15,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,estilo: 2->6
+82,3-pasada1,3,2,0,7,3,0.0,0.16,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,estilo: 2->7
+83,3-pasada1,3,2,0,3,0,0.0,0.09,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,cierre: 3->0
+84,3-pasada1,3,2,0,3,1,0.0,0.08,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,cierre: 3->1
+85,3-pasada1,3,2,0,3,2,0.0,0.04,0.0,copy:copy x6; last_word:last_word_sent x5; change_case:english_capital x5,cierre: 3->2
+86,3-pasada1,3,2,0,3,4,0.0,0.05,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,cierre: 3->4
+87,3-pasada1,3,2,0,3,5,0.0,0.09,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,cierre: 3->5
+88,3-pasada1,3,2,0,3,6,0.0,0.11,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,cierre: 3->6
+89,3-pasada1,3,2,0,3,7,0.0,0.07,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,cierre: 3->7
+90,3-pasada2,0,2,0,3,3,0.0,0.16,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,rol: 3->0
+91,3-pasada2,1,2,0,3,3,0.0,0.16,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 3->1
+92,3-pasada2,2,2,0,3,3,0.0,0.11,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,rol: 3->2
+93,3-pasada2,4,2,0,3,3,0.0,0.14,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 3->4
+94,3-pasada2,5,2,0,3,3,0.0,0.17,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,rol: 3->5
+95,3-pasada2,6,2,0,3,3,0.0,0.12,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,rol: 3->6
+96,3-pasada2,7,2,0,3,3,0.0,0.13,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,rol: 3->7
+97,3-pasada2,3,0,0,3,3,0.0,0.14,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,estrategia: 2->0
+98,3-pasada2,3,1,0,3,3,0.0,0.12,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,estrategia: 2->1
+99,3-pasada2,3,3,0,3,3,0.0,0.15,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,estrategia: 2->3
+100,3-pasada2,3,4,0,3,3,0.0,0.13,0.0,copy:copy x6; change_case:english_capital x6; last_word:last_word_sent x5,estrategia: 2->4
+101,3-pasada2,3,5,0,3,3,0.0,0.09,0.0,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,estrategia: 2->5
+102,3-pasada2,3,6,0,3,3,0.0,0.11,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,estrategia: 2->6
+103,3-pasada2,3,7,0,3,3,0.0,0.15,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,estrategia: 2->7
+104,3-pasada2,3,2,1,3,3,0.0,0.08,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x6,formato: 0->1
+105,3-pasada2,3,2,2,3,3,0.0,0.1,208.8,last_word:last_word_sent x7; copy:copy x6; new:copy_span_idx x5,formato: 0->2
+106,3-pasada2,3,2,3,3,3,0.0,0.12,206.4,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,formato: 0->3
+107,3-pasada2,3,2,4,3,3,0.0,0.11,205.8,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,formato: 0->4
+108,3-pasada2,3,2,5,3,3,0.0,0.12,206.7,last_word:last_word_sent x6; copy:copy x6; keywords:keyword_specific_position x5,formato: 0->5
+109,3-pasada2,3,2,6,3,3,0.0,0.1,205.0,last_word:last_word_sent x6; copy:copy x6; first_word:first_word_sent x5,formato: 0->6
+110,3-pasada2,3,2,7,3,3,0.0,0.04,211.7,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x6,formato: 0->7
+111,3-pasada2,3,2,0,0,3,0.0,0.16,0.0,last_word:last_word_sent x8; copy:copy x6; change_case:english_capital x5,estilo: 3->0
+112,3-pasada2,3,2,0,1,3,0.0,0.11,0.0,copy:copy x6; last_word:last_word_sent x5; first_word:first_word_answer x5,estilo: 3->1
+113,3-pasada2,3,2,0,2,3,0.0,0.17,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x5,estilo: 3->2
+114,3-pasada2,3,2,0,4,3,0.0,0.13,0.0,last_word:last_word_sent x7; copy:copy x6; change_case:english_capital x6,estilo: 3->4
+115,3-pasada2,3,2,0,5,3,0.0,0.13,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,estilo: 3->5
+116,3-pasada2,3,2,0,6,3,0.0,0.15,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,estilo: 3->6
+117,3-pasada2,3,2,0,7,3,0.0,0.16,0.0,copy:copy x6; last_word:last_word_sent x5; new:copy_span_idx x5,estilo: 3->7
+118,3-pasada2,3,2,0,3,0,0.0,0.09,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,cierre: 3->0
+119,3-pasada2,3,2,0,3,1,0.0,0.08,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,cierre: 3->1
+120,3-pasada2,3,2,0,3,2,0.0,0.04,0.0,copy:copy x6; last_word:last_word_sent x5; change_case:english_capital x5,cierre: 3->2
+121,3-pasada2,3,2,0,3,4,0.0,0.05,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x6,cierre: 3->4
+122,3-pasada2,3,2,0,3,5,0.0,0.09,0.0,last_word:last_word_sent x6; copy:copy x6; new:copy_span_idx x5,cierre: 3->5
+123,3-pasada2,3,2,0,3,6,0.0,0.11,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,cierre: 3->6
+124,3-pasada2,3,2,0,3,7,0.0,0.07,0.0,last_word:last_word_sent x6; copy:copy x6; change_case:english_capital x5,cierre: 3->7

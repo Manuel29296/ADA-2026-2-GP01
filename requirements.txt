@@ -1,0 +1,11 @@
+# Para ejecutar los notebooks en Google Colab (GPU T4). Colab ya trae torch.
+bitsandbytes>=0.46.1
+transformers
+accelerate
+nltk
+spacy
+emoji
+langdetect
+immutabledict
+# Pruebas sin GPU
+pytest
